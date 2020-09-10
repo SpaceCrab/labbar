@@ -5,15 +5,13 @@ public class Calculator
   public static void main(String[] args) {
     System.out.println("Välkommen till världens bästa Kalkylator");
 
-    //anropart metoden TestTypes.
+    //anropar metoderna TestTypes TempConversion och TempConversion2
     TestTypes();
     TempConversion();
     TempConversion2();
 
-  }//slut main
-
-
-
+    }//slut main
+}
   public static void TestTypes()
   {
       int tal1 = 9 / 5;
@@ -34,7 +32,8 @@ public class Calculator
 
     System.out.println("temperatur i c grader är " + celsius);
     System.out.println(celsius + " grader i sverige motsvarar " + fahrenheit + "fahrenheit");
-  }
+  }//slut TempConversion
+
   public static void TempConversion2()
   {
     Scanner tempIn = new Scanner(System.in);
@@ -44,5 +43,5 @@ public class Calculator
     double tempCelsius = 5.0/9.0 * (tempFahrenheit - 32.0);
 
     System.out.println(tempFahrenheit + "din temperatur i celsius är : " + tempCelsius);
-  }
+  }//slut TempConversion2
 }
