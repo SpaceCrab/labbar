@@ -1,0 +1,16 @@
+Sätt kostnad = 0
+Ange behandling eller klart från menyn
+
+medans(angav != -1)
+  om(angav 1)
+    kostnad + 600
+  annars om(angav 2)
+    kostnad + 300
+  annars om(angav = 3)
+    kostnad +1500
+
+om(kostnad < 3000)
+  print"kostnad"
+annars om(kostnad >= 3000)
+  kostnad = kostnad * 0.9
+  print kostnad

@@ -17,18 +17,18 @@ public class HiLo {
 					System.out.println("You entered " + guess + ".");
 
 					if(guess < theNumber)
-						System.out.println(guess + " is too low. Try again.");
+						System.out.println(guess + " är för lågt, försök igen");
 					else if(guess > theNumber)
-						System.out.println(guess + " is too high. Try again.");
+						System.out.println(guess + " är för högt, försök igen.");
 					else
-						System.out.println(guess + " is correct. You win!");
+						System.out.println(guess + " är rätt, Du vann!");
 				}
 
-			System.out.println("would you like to play again (y/n)");
+			System.out.println("Vill du spela igen? (y/n)");
 			playAgain = scan.next();
 
-			}
-			while (playAgain.equalsIgnoreCase("y"));
+			}while (playAgain.equalsIgnoreCase("y"));
+
 		System.out.println("Thanks for playing");
 		scan.close();
 
