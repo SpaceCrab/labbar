@@ -7,14 +7,13 @@ public class HiLo {
 
 		do {
 			int theNumber = (int)(Math.random() * 100 + 1);
-			//System.out.println(theNumber);
 			int guess = 0;
 
 				while(guess != theNumber) {
 
-					System.out.println("Guess a number between 1 and 100:");
+					System.out.println("gissa ett nummer mellan 1 och 100:");
 					guess = scan.nextInt();
-					System.out.println("You entered " + guess + ".");
+					System.out.println("du skrev: " + guess + ".");
 
 					if(guess < theNumber)
 						System.out.println(guess + " är för lågt, försök igen");
@@ -29,10 +28,8 @@ public class HiLo {
 
 			}while (playAgain.equalsIgnoreCase("y"));
 
-		System.out.println("Thanks for playing");
+		System.out.println("Tack för att du spelade");
 		scan.close();
-
-
 	}
 
 }
