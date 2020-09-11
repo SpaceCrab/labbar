@@ -4,9 +4,10 @@ public class Tabell
   {
     for (int i = 0;i <= 10 ;i++ )
     {
+      System.out.println("");
       for (int a = 0; a <= 10 ;a++ )
       {
-        System.out.println(i * a);
+        System.out.print(" " + i * a);
       }
     }
   }
