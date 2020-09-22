@@ -9,11 +9,7 @@ public class Week {
 
         //kontrollerar vilken dag det är och skriv ut texten till låten
     switch (dag) {
-      case 6:
-        System.out.println("Saturday, wait");
-        //break;
-      case 7:
-        System.out.println("And Sunday always comes too late");
+
         //break;
       case 1:
         System.out.println("Monday you can fall apart ");
@@ -29,6 +25,12 @@ public class Week {
         //break;
       case 5:
         System.out.println("It's Friday, I'm in love");
+        //break;
+      case 6:
+        System.out.println("Saturday, wait");
+          //break;
+      case 7:
+        System.out.println("And Sunday always comes too late");
         break;
       default:
         break;

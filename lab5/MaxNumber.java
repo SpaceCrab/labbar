@@ -19,7 +19,7 @@ public class MaxNumber{
     else if(nbr1>nbr2 && nbr1 > nbr3){
       System.out.println("Tal 1 är störst!");
     }
-    else if(nbr2>nbr1 && nbr2 > nbr2){
+    else if(nbr2>nbr1 && nbr2 > nbr3){
       System.out.println("Tal 2 är störst!");
     }
     else if(nbr3>nbr2 && nbr3 > nbr1){
