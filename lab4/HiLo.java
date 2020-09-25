@@ -13,14 +13,18 @@ public class HiLo {
 
 					System.out.println("gissa ett nummer mellan 1 och 100:");
 					guess = scan.nextInt();
+
 					System.out.println("du skrev: " + guess + ".");
 
-					if(guess < theNumber)
+					if(guess < theNumber){
 						System.out.println(guess + " är för lågt, försök igen");
-					else if(guess > theNumber)
+					}
+					else if(guess > theNumber){
 						System.out.println(guess + " är för högt, försök igen.");
-					else
+					}
+					else{
 						System.out.println(guess + " är rätt, Du vann!");
+					}
 				}
 
 			System.out.println("Vill du spela igen? (y/n)");
