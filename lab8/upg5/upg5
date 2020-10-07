@@ -1,0 +1,19 @@
+double[] sensorA = new double[10][10];
+double[] sensorB = new double[10][10];
+
+int fail = 0;
+double largestFailure = 0.0;
+
+for (int i = 0;i < 10 ;i++ ) {
+
+  for (int a = 0;a < 10 ;a++ ) {
+
+    if (sensorA[i][a] != sensorB[i][a]) {
+      fail++;
+
+      if (math.abs(sensorA[i][a] - sensorB[i][a]) > largestFailure) {
+        largestFailure = math.abs(sensorA[i][a] - sensorB[i][a])
+      }
+    }
+  }
+}

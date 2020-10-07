@@ -1,0 +1,61 @@
+index = 0;
+indexFörStörstavärde = 0
+
+SÅ LÄNGE(fler värden i arrayen){
+  OM(hittat ett större värde){
+    indexFörStörstavärde = index;
+  }
+
+}
+
+A)
+Variant 1
+index = 0;
+indexFörStörstavärde = 0
+indexFörStörstavärdeLägst = 0
+
+SÅ LÄNGE(fler värden i arrayen){
+
+  OM(hittat ett större värde){
+    indexFörStörstavärdelägst = index
+    indexFörStörstavärde = index;
+
+  OM(värdet är lika stort)
+    indexFörStörstavärde = index
+  }
+
+}
+
+Variant 2
+index = 0;
+indexFörStörstavärde = 0
+indexFörStörstavärdehögst = 0
+
+SÅ LÄNGE(fler värden i arrayen){
+
+  OM(hittat ett större värde){
+
+    indexFörStörstavärde = index;
+
+  OM(värdet är lika stort OCH ligger på ett större index)
+    indexFörStörstavärde = index
+      indexFörStörstavärdehögst = index
+  }
+
+}
+
+B)
+Variant 1
+index = 0;
+indexFörMinstavärde = 0
+indexFörMinstaVärdeLägst = 0
+
+SÅ LÄNGE(fler värden i arrayen){
+
+  OM(hittat ett mindre värde){
+    indexFörMinstavärde = index
+    indexFörMinstaVärdeLägst = index;
+  }
+  OM(värdet är lika stort){
+    indexFörStörstavärde = index
+  }

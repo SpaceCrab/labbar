@@ -1,0 +1,18 @@
+string[] student = new string[5][5];
+
+int indexCol = 0;
+int indexRow = 0;
+
+
+for (int i = 0 ; i < student.length ; i++ ) {
+
+  for (int a = 0; a < student.length;a++ ) {
+
+    if (student[indexRow][4] == "G"||student[indexRow][4] == "VG") {
+
+      System.out.println(student[indexRow][1] + student[indexRow][3]);
+    }
+
+  }
+  indexRow++;
+}

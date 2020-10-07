@@ -1,0 +1,21 @@
+
+double[] moist = new double[24];
+
+double mean = 0.0;
+double largest = 0.0;
+double smallest = 0.0;
+
+
+for (int i = 0;i < moist.length ; i++ ) {
+
+  if (moist[i] > largest) {
+      largest = moist[i];
+  }
+  if (moist[i] < smallest) {
+      smallest = moist[i];
+  }
+
+  mean += moist[i];
+}
+
+mean = mean/moist.length;
