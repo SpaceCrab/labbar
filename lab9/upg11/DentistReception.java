@@ -1,4 +1,4 @@
-mport java.util.Scanner;
+import java.util.Scanner;
 public class DentistReception{
   public static void main(String[] args) {
     double cost = 0;
