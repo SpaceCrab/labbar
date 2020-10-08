@@ -22,6 +22,7 @@ public class Bubble{
     System.out.println("\nsorterad array");
     for (int i = 0; i < length; i++) {
       System.out.print(array[i] + " ");
+      
     }
   }
 }
