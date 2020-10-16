@@ -3,17 +3,21 @@ import java.lang.*;
 
 public class DentistA{
 
-  static void printArr(String[][] arr){
+  static void printArr(String[][] arr)
+  {
 
-    for (int i = 0; i < arr.length; i++ ) {
-      for (int a = 0; a < arr[0].length;a++ ) {
+    for (int i = 0; i < arr.length; i++ )
+    {
+      for (int a = 0; a < arr[0].length;a++ )
+      {
         System.out.print(arr[i][a] + " ");
       }
       System.out.println("");
     }
   }
 
-  public static void main(String[] args) {
+  public static void main(String[] args)
+  {
     Scanner input = new Scanner(System.in);
 
     String[][] treatment = {{"1: Kontroll" ,"600"},{"2: Lagning hål","1500"},{"3: Rengöring","300"}};
