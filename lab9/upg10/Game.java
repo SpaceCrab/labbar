@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 public class Game
 {
   public static void main(String[] args)
@@ -42,5 +43,10 @@ public class Game
       }
       System.out.println("");
     }
+=======
+public class Game{
+  public static void main(String[] args) {
+    
+>>>>>>> Stashed changes
   }
 }
